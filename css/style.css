@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first{
+    width: 100%;
+    height: 110vh;
+    background-image: url(../image/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+
+.nav_content{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    align-items: center;
+}
+
+.logo p{
+    font-size: 24px;
+    color: yellow;
+}
+
+nav ul{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: #fff;
+    transition: .3s;
+}
+
+nav ul a:hover{
+    color: yellow;
+}
+
+.bg_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    height: 110vh;
+    color: #fff;
+}
+
+.bg_content h2{
+    font-size: 40px;
+}
+
+.bg_content h3{
+    font-size: 80px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    margin-top: 25px;
+}
+
+.item i{
+    width: 120px;
+    height: 120px;
+    background-color: orange;
+    color: #fff;
+    border-radius: 50%;
+    line-height: 120px;
+    font-size: 50px;
+}
+
+.second{
+    margin-top: 50px;
+}
+
+.second h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.second p{
+    font-style: italic;
+    font-size: 18px;
+}
+
+.nkar{
+    position: relative;
+    width: 100%;
+    height: 370px;
+    transition: .5s;
+}
+
+.nkar::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #969f1da8;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+.nkar:hover::after{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.cards img{
+    width: 200px;
+    height: 200px;
+    border: 7px solid rgb(185, 184, 184);
+}
+
+.four{
+    background-color: rgb(228, 219, 219);
+    padding: 40px 0;
+}
+.cards i{
+    margin-top: 10px;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    background-color: rgb(71, 71, 71);
+    color: #fff;
+    font-size: 16px;
+    line-height: 37px;
+    margin: 5px 8px;
+
+}
+.five{
+    background-color: #fff8;
+}
+.photos img{
+    width: 150px;
+    height: 150px;
+}
